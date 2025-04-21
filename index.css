@@ -1,0 +1,31 @@
+.heading1{
+    height: 100px;
+    color: aqua;
+    background-color: antiquewhite;
+    width: 100px;
+    text-align: center;
+    order: 0;
+}
+.heading2{
+    height: 100px;
+    color: red;
+    background-color:black;
+    width: 100px;
+    text-align: center;
+    order: 2;
+    align-self: first baseline;
+}
+.heading3{
+    height: 100px;
+    color: green;
+    background-color: yellowgreen;
+    width: 100px;
+    text-align: center;
+}
+.order{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
