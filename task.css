@@ -10,6 +10,7 @@
     border-radius: 10px;
     width: 100px;
     background-color: greenyellow;
+    border: 0px;
     
 }
 .index img{
@@ -17,10 +18,10 @@
 }
 .content{
     display: block;
-background-image: url('https://cdn.shopify.com/s/files/1/0070/7032/articles/What_20is_20money_1848x970_6c6d2d91-8bea-45d7-9a93-3456cf2d8db3.png?v=1729517013');
+background-image: url('./1pic.png.png');
 background-repeat: no-repeat;
 background-position: center;
-color: ;
+color: white;
 background-size: cover;
 padding: 20px;
 
@@ -39,13 +40,17 @@ padding: 20px;
 .middle{
     display: flex;
     padding: 20px;
+ 
 }
 .middle h5{
     color: rgb(94, 185, 4);
 }
 .middle button{
+    height: 30px;
+    width: 150px;
     border-radius: 20px;
     height: 30px;
+    border: 0px;
     
 }
 .middle p{
@@ -67,7 +72,138 @@ padding: 20px;
     height: 30px;
     width: 150px;
     border-radius: 20px;
-    background-color: rgb(143, 236, 2);
-   
+   border: 0px;
+}
+.middle2 img{
+    height: 300px;
+    width: 300px;
+}
+.homeloan{
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+
+}
+.homeloan img{
+    height: 300px;
+    width: 300px;
+}
+.homeloan button{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+   border: 0px;
+}
+.loan{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+}
+.loan img{
+    height: 300px;
+    width: 300px;
+}
+.loan button{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+   border: 0px;
+}
+.loan p{
+    width: 80%;
+}
+.draft{
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+.draft img{
+    height: 300px;
+    width: 300px;
+}
+.draft button{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+   border: 0px;
+}
+.professional{
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    padding: 20px;
+}
+.professional img{
+    height: 300px;
+    width: 300px;  
+}
+.professional button{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+   border: 0px;
+}
+@media (max-width:500px) {
+        .professional{
+            width: 40%;
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 10px;
+            padding: 100px;
+        }
+        .professional img{
+            height: 150px;
+            width: 150px;  
+        }
+        .professional button{
+            height: 20px;
+            width: 100px;
+            border-radius: 10px;
+           border: 0px;
+        }
     
+}
+    
+
+.education{
+
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+.education img{
+    height: 300px;
+    width: 300px;  
+}
+.education button{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+   border: 0px;
+}
+
+
+    
+
+.vehicle{
+
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    padding: 20px;
+}
+.vehicle img{
+    height: 300px;
+    width: 300px;  
+}
+.vehicle button{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+   border: 0px;
 }
